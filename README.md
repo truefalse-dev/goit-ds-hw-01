@@ -1,8 +1,9 @@
 cd app
 
-# Task 1
-poetry install
+## Task 1
+poetry install<br />
+poetry run main
 
-# Task 2
-docker build -t app .
-docker run -it app /bin/bash
+## Task 2
+docker build -t app .<br />
+docker run -it app /bin/bash<br />
